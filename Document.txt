@@ -1,0 +1,13 @@
+To follow a Test-First or Test-Driven Development (TDD) approach, we will need to first write tests that fail for the new requirements, then update the code to make those tests pass. Here are the steps for the tasks:
+
+Task 1: Extending the add method for StringCalculator class to accommodate the new requirements.
+
+A. Understand the requirements:
+The first requirement is to throw an exception when the add method is called with a negative number.
+The second requirement is to ignore numbers bigger than 1000.
+
+B. Write Tests:
+Before modifying the add method, write tests that reflect the new requirements and ensure they fail initially.
+This is a crucial part of TDD, ensuring the code doesn't already pass the new requirements.
+
+Task 2: Write a Test class that focuses solely on testing the new requirements (Extended Functionalities)
